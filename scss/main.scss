@@ -32,7 +32,6 @@ header{
   //overflow: auto;
   display:inline-block;
   width :100%;
-  
   background-color:#EEEEEE;
   
 
@@ -40,17 +39,30 @@ header{
     background-image:url('../images/banner.jpg');
     background-size:cover;
     height:100px;
+    margin-bottom: 25px;
   }
 
 .answer1-container{
   width :100%;
   display:inline-block;
-  border-bottom: 1px #C1C1C1;
   //overflow:auto;
   h3{
-    font-size: 20px;
+    line-height: 30px;
+    border-top: 1px solid #aaaaaa;
+    padding-bottom :20px;
     text-align: center;
+    font-size: 20px;
+    position:relative;
+
   }
+  span{
+    position:absolute;
+    background-color:#EEEEEE;
+    top: -16px;
+    left: 45%;
+    padding: 0 20px;
+  }
+
 
   p{ 
       padding-left: 20px;
@@ -62,11 +74,25 @@ header{
   width :100%;
   display:inline-block;
   //overflow:auto;
+
   h3{
+    line-height: 30px;
+    border-top: 1px solid #aaaaaa;
+    padding-bottom :20px;
     text-align: center;
     font-size: 20px;
-    
+    position:relative;
+
   }
+  span{
+    position:absolute;
+    background-color:#EEEEEE;
+    top: -16px;
+    left: 45%;
+    padding: 0 20px;
+  }
+
+
   p{ 
       padding-left: 20px;
       line-height: 30px;
@@ -83,18 +109,44 @@ p{
       line-height: 30px;
   }
   h3{
+    line-height: 30px;
+    border-top: 1px solid #aaaaaa;
+    padding-bottom :20px;
     text-align: center;
     font-size: 20px;
+    position:relative;
+
   }
+  span{
+    position:absolute;
+    background-color:#EEEEEE;
+    top: -16px;
+    left: 45%;
+    padding: 0 20px;
+  }
+
 }
 .answer4-container{
   width :100%;
   display:inline-block;
   //overflow:auto;
   h3{
+    line-height: 30px;
+    border-top: 1px solid #aaaaaa;
+    padding-bottom :20px;
     text-align: center;
     font-size: 20px;
+    position:relative;
+
   }
+  span{
+    position:absolute;
+    background-color:#EEEEEE;
+    top: -16px;
+    left: 45%;
+    padding: 0 20px;
+  }
+
   p{ 
       padding-left: 20px;
       line-height: 30px;
@@ -106,9 +158,22 @@ p{
    display:inline-block;
  // overflow:auto;
   h3{
+    line-height: 30px;
+    border-top: 1px solid #aaaaaa;
+    padding-bottom :20px;
     text-align: center;
     font-size: 20px;
+    position:relative;
+
   }
+  span{
+    position:absolute;
+    background-color:#EEEEEE;
+    top: -16px;
+    left: 45%;
+    padding: 0 20px;
+  }
+
   p{ 
       padding-left: 20px;
       line-height: 30px;
@@ -120,9 +185,22 @@ p{
    display:inline-block;
   //overflow:auto;
   h3{
+    line-height: 30px;
+    border-top: 1px solid #aaaaaa;
+    padding-bottom :20px;
     text-align: center;
     font-size: 20px;
+    position:relative;
+
   }
+  span{
+    position:absolute;
+    background-color:#EEEEEE;
+    top: -16px;
+    left: 45%;
+    padding: 0 20px;
+  }
+
   p{ 
       padding-left: 20px;
       line-height: 20px;
