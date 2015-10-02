@@ -76,7 +76,7 @@ var c_Code = items.filter(function(item){
 
 if (item.currency_code=="GBP"){
     //console.log(item.title + " " + item.price);
-  cur_C = item.title + " " + item.price;
+  cur_C = item.title + " £" + item.price;
 }
 
 }); //console.log(cur_C);
